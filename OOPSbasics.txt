@@ -1,0 +1,46 @@
+OOPS :-
+    object oriented programming is a type of programming technique that where code is written to bind data around the
+data.
+
+FOUR PILLARS OF OOPS :-
+
+I)ENCAPSULATION:-
+               * It is the binding of data and function which manipulate that data 
+                                or
+                 Encapsulation is the bundling of data (attributes) and methods (functions) within a class, restricting 
+                 access to some components to control interactions. A class is an example of encapsulation as it encapsulates 
+                 all the data that is member functions, variables, etc               
+II)ABSTRACTION:-  
+               * abstraction is the hiding of the functionalities of the methods that manipulate the data,this feature
+                 brings more efficiency as sometimes without knowing how any method or funtion works we would rather 
+                 use its functionality.
+               * sometime abstraction can be complex as other programmer might overwrite your methods or fuctions. To
+                 avoid this other programming languages like java ,cpp,etc have this concept of private or public 
+                 variables function/method whereas python does not have such feature . Hence to avoid getting your 
+                 code to be overwritten python deals it very cleverly , that is - using underscore before the name of 
+                 declared attribute (for eg - self._name=name)
+
+                For example -  
+                a)user of the program does not know how the functions he/she is using manipulates the data but rather 
+                  knows only of what has been allowed by the program developer.
+III)INHERITENCE:-
+               * it is the dependency of the subclasses to the parent class in various fashion. Such as:-
+                a)Heirarchial class inheritence 
+                b)Multilevel class inheritence 
+                c)Multiple class inheritence
+                d)Hybrid class inheritence 
+                e)Single class inheritence
+                ~This is later explained in the file name as 
+                (User/kabeerfarukh25/PROGRAMMING/PythonBasics/InheritanceBasic.py) 
+IV)POLYMORPHISM :-
+               * Polymorphism in Python means "same operation, different behavior." It allows functions or methods with 
+                 the same name to work differently depending on the type of object they are acting upon.The flowchart 
+                 below represents the different types of polymorphism in Python, showing how a single interface can exhibit 
+                 multiple behaviors at compile-time and run-time.
+                 Polymorphism :
+                      a)Compile timed polymorphism(mimicked using *args and **kwargs) :-
+                                      i)Method Overloading
+                      b)Run time polymorphism :-
+                                      i)Method Overriding
+                                      ii)Duck Typing 
+                                      iii)Operator Overloading                
